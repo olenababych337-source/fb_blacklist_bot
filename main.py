@@ -24,9 +24,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-```
-
-**5. requirements.txt** — створи новий файл з таким вмістом:
-```
-aiogram==3.7.0
-supabase==2.3.0
