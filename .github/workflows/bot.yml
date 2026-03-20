@@ -4,9 +4,7 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: '0 */5 * * *'  # перезапуск кожні 5 годин
-
+  
 jobs:
   run_bot:
     runs-on: ubuntu-latest
